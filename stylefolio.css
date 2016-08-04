@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 100vw;
+	height: 100vh;
+	background-color: white;
+	overflow: hidden;
+}
+
+.logo{
+	width: 234px;
+	height: 234px;
+	background-image: url("Images/mlogo.gif");
+	background-repeat: no-repeat;
+	margin-left: 94px;
+	margin-top: 68px;
+	display: inline-block;
+	float:left;
+}
+
+.navigation{
+	font-family: 'Sanchez', serif;
+	width: 1570px;
+	height: 22px;
+	background-image: url("Images/navbar.gif");
+	margin-top: 170px;
+	margin-left: 22px;
+	margin-bottom: 100px;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+ul{
+	list-style: none;
+	overflow: hidden;
+}
+
+li{
+	display: inline-block;
+}
+
+.nav li {
+	width: 90px;
+	text-align: center;
+}
+
+
+.homenav, .aboutnav, .portfolionav, .contactnav {
+	overflow: hidden;
+}
+
+.nav .portfolionav {
+	width: 80px;
+}
+
+.footer{
+	height: 349px;
+	width: 1920px;
+	background-image: url("Images/footer.gif");
+	margin-top: 317px;
+}
