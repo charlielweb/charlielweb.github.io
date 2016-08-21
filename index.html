@@ -1,21 +1,183 @@
 <!DOCTYPE html>
 <html>
+<title>Charlie's Dank Beach</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<title>Charlie L | Home</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+
+
+
+<style>
+.w3-lobster {
+  font-family: "Lobster", serif;
+}
+</style>
+
+
+
+
 <body>
 
-<!-- Navbar -->
-<div class="w3-top">
-	<ul class="w3-navbar w3-dark-grey w3-large">
-		<li><a class="w3-padding-16" href="index.html">Home</a></li>
-		<li><a class="w3-padding-16" href="https://github.com/charlielweb">Github</a></li>
-	</ul>
+
+<!-- SideNav -->
+<nav class="w3-lobster w3-sidenav w3-white w3-card-2 w3-animate-left" style="display:none" id="mySidenav">
+	<a href="javascrip:void(0)" onclick="w3_close()" class="w3-closenav w3-large">Close &times</a>
+	<a href="index.html">Home</a>
+	<a href="#prices">Pricing</a>
+	<a href="#googleMap">Directions</a>
+</nav>
+
+<!-- Header -->
+<header class="w3-lobster w3-container w3-black">
+	<span class="w3-lobster w3-opennav w3-xlarge" onclick="w3_open()">&#9776</span>
+	<center><h1 class="w3-lobster">Charlie's Dank Beach</h1></center>
+</header>
+
+<!-- Slideshow -->
+<div class="w3-content w3-section" style="width:100%">
+	<img class="mySlides" src="http://best-wallpaper.net/wallpaper/1920x1080/1112/Cityscape-Queensland-Australia_1920x1080.jpg" style="width:100%">
+	<img class="mySlides" src="http://www.mrwallpaper.com/wallpapers/bathing-beach-1920x1080.jpg" style="width:100%">
+	<img class="mySlides" src="http://www.wallcoo.net/nature/Window7_Europe_Wallpapers_1920x1200/wallpapers/1920x1080/Spain,%20Sotavento%20Beach,%20Fuerteventura,%20Canary%20Islands.jpg" style="width:100%">
+	<img class="mySlides" src="http://wallpaper.pickywallpapers.com/1920x1080/brazilian-beach-by-the-night.jpg" style="width:100%">
 </div>
 
-<div class="w3-display container w3-animation-opacity">
-	<img src="http://www.twitrcovers.com/wp-content/uploads/2012/11/Vintage-Ships-l.jpg" style="width:100%">
+ <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px">
+ 	<h2 class="w3-wide">WHAT IS CHARLIES DANK BEACH?</h2>
+ 	<p class="w3-opacity"><i>That's a great question.</i></p>
+ 	<p class="w3-justify">Charlie's dank beach is a <i>family friendly</i> beach that everyone can enjoy. There is simply no reason not to like Charlie's dank beach because, well, its just so damn dank! Enjoy refreshing Gamma Labs Smoothies, and take in the beautiful beach, with a fantastic view of the willow tree. Hit up the relaxing spa with your friends and family. And to top it all off, enjoy your night in our luxiourous, wooden sleeping bags. Come on down to Charlie's dank beach today!</p>
+ </div>
+
+
+
+<!-- Prices -->
+
+ <center><h2 id="prices" class="w3-wide">EXAMINE OUR FINE, FINE PRICES</h2></center>
+
+ <div class="w3-padding-16"></div>
+
+ <div class="w3-row-padding">
+
+	 <div class="w3-third w3-margin-bottom">
+	  <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+	    <li class="w3-black"><p class="w3-xlarge">Crappy</p></li>
+	    <li class="w3-padding-16"><b>1</b> Silk Sleeping Bag</li>
+	    <li class="w3-padding-16"><b>1</b> Free Breakfast</li>
+	    <li class="w3-padding-16"><b>4</b> Towels</li>
+	    <li class="w3-padding-16"><b>0</b> Free Minibar Snacks</li>
+	    <li class="w3-padding-16">
+	      <h2 class="w3-wide">$ 100</h2>
+	      <span class="w3-opacity">per nigh</span>
+	    </li>
+	    <li class="w3-light-grey w3-padding-24">
+	      <button class="w3-btn w3-black w3-padding-large">Book Now</button>
+	    </li>
+	  </ul>
+	</div>
+
+	 <div class="w3-third w3-margin-bottom">
+	  <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+	    <li class="w3-black"><p class="w3-xlarge">Meh</p></li>
+	    <li class="w3-padding-16"><b>3</b> Carbon Fiber Sleeping Bags</li>
+	    <li class="w3-padding-16"><b>3</b> Free Breakfasts</li>
+	    <li class="w3-padding-16"><b>8</b> Towels</li>
+	    <li class="w3-padding-16"><b>2</b> Free Minibar Snacks</li>
+	    <li class="w3-padding-16">
+	      <h2 class="w3-wide">$ 1,000</h2>
+	      <span class="w3-opacity">per nigh</span>
+	    </li>
+	    <li class="w3-light-grey w3-padding-24">
+	      <button class="w3-btn w3-black w3-padding-large">Book Now</button>
+	    </li>
+	  </ul>
+	</div>
+
+	<div class="w3-third w3-margin-bottom">
+	  <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+	    <li class="w3-black"><p class=" w3-wide w3-xlarge">HERO</p></li>
+	    <li class="w3-padding-16"><b>10</b> Wooden Sleeping Bags</li>
+	    <li class="w3-padding-16"><b>12</b> Free Breakfasts</li>
+	    <li class="w3-padding-16"><b>23</b> Towels</li>
+	    <li class="w3-padding-16"><b>Unlimited</b> Free Minibar Snacks</li>
+	    <li class="w3-padding-16">
+	      <h2 class="w3-wide">$ 1,000,000,000</h2>
+	      <span class="w3-opacity">per nigh</span>
+	    </li>
+	    <li class="w3-light-grey w3-padding-24">
+	      <button class="w3-btn w3-black w3-padding-large">Book Now</button>
+	    </li>
+	  </ul>
+	</div>
+ </div>
+
+<div class="w3-padding-16"></div>
+
+<center><h2 class="w3-wide">HERE WE ARE</h2></center>
+
+<div class="w3-padding-16"></div>
+
+<!-- Google Maps -->
+<div id="googleMap" style="height:400px;filter:grayscale(90%);-webkit-filter:grayscale(90%);"></div>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(36.8876, 175.0032);
+    
+function initialize() {
+    var mapProp = {
+    center: myCenter,
+    zoom: 12,
+    scrollwheel: false,
+    draggable: false,
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+};
+    
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    
+var marker = new google.maps.Marker({
+    position: myCenter,
+});
+    
+marker.setMap(map);
+}
+    
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+<div class="w3-padding-32"></div>
+<div class="w3-container w3-black">
+	<h2 class="w3-wide"><center><i>Disclaimer</i></center></h2>
+	<p class="justify"><center>Charlie's Dank Beach doesn't exist.</center></p>
 </div>
+
+
+
+
+
+<script>
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+</script>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 
 </body>
 </html>
